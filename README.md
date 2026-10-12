@@ -11,9 +11,9 @@ visualization** — finished with an interactive Tableau story.
 |---|---|
 | [`1_sourcing_open_data.ipynb`](./1_sourcing_open_data.ipynb) | Source, load, and clean the ratings dataset |
 | [`2_geo_visualizations.ipynb`](./2_geo_visualizations.ipynb) | **Geospatial visualization** — `folium` choropleth of ratings by region |
-| [`3_supervised_machine_learning_regression.ipynb`](./3_supervised_machine_learning_regression.ipynb) | **Supervised regression** — scikit-learn `LinearRegression` on a train/test split, scored with R² and RMSE |
+| [`3_supervised_machine_learning_regression.ipynb`](./3_supervised_machine_learning_regression.ipynb) | **Supervised regression** — scikit-learn `LinearRegression` on a train/test split, scored with MSE and R² — cocoa percentage alone explains none of the variance in ratings (R² = 0.00) |
 | [`4_unsupervised_machine_learning_clustering.ipynb`](./4_unsupervised_machine_learning_clustering.ipynb) | **Unsupervised clustering** — `KMeans` segmentation with the elbow method |
-| [`5_sorcing_and_analyzing_time_series.ipynb`](./5_sorcing_and_analyzing_time_series.ipynb) | **Time-series analysis** — `statsmodels` seasonal decomposition, Augmented Dickey-Fuller, and ACF over review dates |
+| [`5_sourcing_and_analyzing_time_series.ipynb`](./5_sourcing_and_analyzing_time_series.ipynb) | **Time-series analysis** — `statsmodels` seasonal decomposition, Augmented Dickey-Fuller, and ACF over review dates |
 
 ## Stack
 `Python` · `pandas` · `numpy` · `scikit-learn` (regression + KMeans) ·
