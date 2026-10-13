@@ -22,13 +22,9 @@ visualization** — finished with an interactive Tableau story.
 An interactive [Tableau story](https://public.tableau.com/app/profile/cesar.delgado5456/viz/6_7_flavors_of_cacao/Story1?publish=yes)
 presents the headline findings — top manufacturers, cocoa-percentage trends, and the ratings distribution.
 
-## Run it
-```bash
-git clone https://github.com/cesdelgad1024/cacao-ml-portfolio.git
-cd cacao-ml-portfolio
-pip install pandas numpy scikit-learn statsmodels folium matplotlib seaborn jupyterlab
-jupyter lab   # open the notebooks 1 → 5
-```
+## Viewing the notebooks
+The notebooks render directly on GitHub with every output saved, so no setup is needed to read them.
+The source data (the Flavors of Cacao ratings and a world GeoJSON file) is not included in the repo.
 
 ---
 *Part of my path from data analytics into applied ML and cloud AI — see also
